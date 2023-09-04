@@ -32,7 +32,7 @@ fields = file_input['Field']
 show_extract_source= False
 
 indexes = file_input.index.values.tolist()
-
+# Change deblending is necessary for a few galaxies in order not to be divided into more objects. Not 100% efficient yet, galaxies such as NGC 1365 still needs work!
 deblend_var = np.array([0.05]*len(file_input))
 deblend_var[0] = 0.005 ; deblend_var[8] = 0.005 ; deblend_var[9] = 0.005 ; deblend_var[10] = 0.005 ; deblend_var[19] = 0.005 ;
 deblend_var[26] = 0.005 ; deblend_var[36] = 0.005 ; deblend_var[37] = 0.005 ; deblend_var[44] = 0.005 ; deblend_var[47] = 0.005;
