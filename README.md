@@ -1,6 +1,7 @@
 # Halpha-SPLUS-Jelly
 
 Repository contains the four stages of analysis for Jellyfish galaxies using S-PLUS images.
+
 For such, it uses MontagePy to combine S-PLUS images (r, J0660, i) to create a detection image, SEP to handle the detection objects, masking and estimating the flux radius of the objects, together with splusdata to download the images and splus_datacube to calibrate and create the datacubes.
 The analysis is divided in 4 steps:
 
