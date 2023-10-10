@@ -16,4 +16,4 @@ The analysis is divided in 4 steps:
 4) The fluxes in the Halpha+[NII] maps are integrated within 90% radius, estimated at step 2. A second run is made, adding the G-band, in order to correct the Halpha+[NII] emission fluxes by extinction and [NII] applying Eq. (20) and (21) from Vilella-Rojo et al. (2015), respectively. Then, the Halpha fluxes are converted to star formation rates (SFR) using Kennicutt et al. (1998).
 
 
-Observations: The Halpha fluxes may be over/underestimate mainly due to the dust correction not being the most appropriate. More studies are being done in order to obtain more reliable corrections, in particular related to cases where the HII are not spatially resolved.
+Observations: The Halpha fluxes may be underestimate mainly due to the dust correction not being the most appropriate. More studies are being done in order to obtain more reliable corrections, in particular related to cases where the HII regiones are not spatially resolved.
