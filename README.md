@@ -13,7 +13,7 @@ The analysis is divided in 4 steps:
 
 3) Creates the Halpha+[NII] emission line maps applying a Three Filter Method (Vilella-Rojo et al. 2015) to each pixel of the image. Examples of Halpha+[NII] maps in folder "Halpha_nii_maps";
 
-4) The fluxes in the Halpha+[NII] maps are integrated within 90% radius, estimated at step 2. A second run is made, adding the G-band, in order to correct the Halpha+[NII] emission fluxes by extinction and [NII] applying Eq. (20) and (21) from Vilella-Rojo et al. (2015), respectively. Then, the Halpha fluxes are converted to star formation rates (SFR) using Kennicutt et al. (1998). Alternatively, it can be used the Kennicutt relation corrected for Chabrier (2003) IMF presented by Sobral et al. (2014).
+4) The fluxes in the Halpha+[NII] maps are integrated within 90% radius, estimated at step 2. Then, the emission fluxes are converted to star formation rates (SFR) using Kennicutt et al. (1998). In order to correct by extinction and [NII], the final SFR is estimated following Eq.(19) from Kouroumpatzakis et al. (2021). 
 
 
-Observations: The Halpha fluxes may be underestimate mainly due to the dust correction not being the most appropriate. More studies are being done in order to obtain more reliable corrections, in particular related to cases where the HII regiones are not spatially resolved.
+Observations: The SFR may be underestimate mainly due to the dust correction not being the most appropriate. More studies are being done in order to obtain more reliable corrections, in particular related to cases where the HII regions are not spatially resolved.
